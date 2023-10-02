@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB355F552836E16900F87C71 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AB355F542836E16900F87C71 /* Kingfisher */; };
+		AB355F572836FA0200F87C71 /* ButtonWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F562836FA0200F87C71 /* ButtonWithText.swift */; };
+		AB355F592838256200F87C71 /* FruitEatenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F582838256200F87C71 /* FruitEatenListView.swift */; };
+		AB355F5C28382B3700F87C71 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F5B28382B3600F87C71 /* UserDefaultManager.swift */; };
+		AB355F5E28382B5F00F87C71 /* StorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F5D28382B5F00F87C71 /* StorageKey.swift */; };
+		AB355F60283918EF00F87C71 /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F5F283918EF00F87C71 /* JsonService.swift */; };
+		AB355F62283953E700F87C71 /* FileIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB355F61283953E600F87C71 /* FileIndex.swift */; };
+		AB51E531283643DF0064E3C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB51E530283643DF0064E3C3 /* Alamofire */; };
+		AB51E5362836440C0064E3C3 /* ErrorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5322836440B0064E3C3 /* ErrorStruct.swift */; };
+		AB51E5372836440C0064E3C3 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5332836440B0064E3C3 /* ServiceAPI.swift */; };
+		AB51E5382836440C0064E3C3 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5342836440B0064E3C3 /* AlamofireManager.swift */; };
+		AB51E5392836440C0064E3C3 /* URLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5352836440C0064E3C3 /* URLUtility.swift */; };
+		AB51E53B283648B00064E3C3 /* DailyFruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E53A283648B00064E3C3 /* DailyFruitViewModel.swift */; };
+		AB51E53D28364ADF0064E3C3 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E53C28364ADF0064E3C3 /* FruitModel.swift */; };
+		AB51E53F28364AFD0064E3C3 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E53E28364AFD0064E3C3 /* EntryModel.swift */; };
+		AB51E5422836821B0064E3C3 /* HalfSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5412836821A0064E3C3 /* HalfSheetView.swift */; };
+		AB51E5442836827F0064E3C3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5432836827F0064E3C3 /* DashboardView.swift */; };
+		AB51E546283682BC0064E3C3 /* TabSlideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E545283682BC0064E3C3 /* TabSlideBarView.swift */; };
+		AB51E5492836870F0064E3C3 /* DailyFruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E5482836870E0064E3C3 /* DailyFruitView.swift */; };
+		AB51E54B283687400064E3C3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51E54A283687400064E3C3 /* AboutView.swift */; };
+		AB61A74528368BB500FD17BE /* IconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61A74428368BB500FD17BE /* IconButtonView.swift */; };
+		AB61A74828368FA200FD17BE /* FruitEatenFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61A74728368FA100FD17BE /* FruitEatenFormView.swift */; };
+		AB8D59A428363D8900DC1CA4 /* DailyEatenFruitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59A328363D8800DC1CA4 /* DailyEatenFruitApp.swift */; };
+		AB8D59A828363D8B00DC1CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8D59A728363D8B00DC1CA4 /* Assets.xcassets */; };
+		AB8D59AB28363D8B00DC1CA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8D59AA28363D8B00DC1CA4 /* Preview Assets.xcassets */; };
+		AB8D59B528363DCA00DC1CA4 /* WeekCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59B428363DCA00DC1CA4 /* WeekCalendarViewModel.swift */; };
+		AB8D59B728363DE800DC1CA4 /* WeekDaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59B628363DE800DC1CA4 /* WeekDaysModel.swift */; };
+		AB8D59BA28363DF200DC1CA4 /* WeeklyCalendaerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59B828363DF200DC1CA4 /* WeeklyCalendaerHeaderView.swift */; };
+		AB8D59BB28363DF200DC1CA4 /* WeeklyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59B928363DF200DC1CA4 /* WeeklyCalendarView.swift */; };
+		AB8D59BD28363E0200DC1CA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59BC28363E0200DC1CA4 /* ContentView.swift */; };
+		AB8D59C228363E2D00DC1CA4 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59C128363E2D00DC1CA4 /* Date+Extension.swift */; };
+		AB8D59C528363E3500DC1CA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59C328363E3500DC1CA4 /* Constant.swift */; };
+		AB8D59C628363E3500DC1CA4 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59C428363E3500DC1CA4 /* Device.swift */; };
+		AB8D59C828363E3B00DC1CA4 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D59C728363E3B00DC1CA4 /* Modifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB355F562836FA0200F87C71 /* ButtonWithText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithText.swift; sourceTree = "<group>"; };
+		AB355F582838256200F87C71 /* FruitEatenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEatenListView.swift; sourceTree = "<group>"; };
+		AB355F5B28382B3600F87C71 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		AB355F5D28382B5F00F87C71 /* StorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKey.swift; sourceTree = "<group>"; };
+		AB355F5F283918EF00F87C71 /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
+		AB355F61283953E600F87C71 /* FileIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIndex.swift; sourceTree = "<group>"; };
+		AB51E5322836440B0064E3C3 /* ErrorStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorStruct.swift; sourceTree = "<group>"; };
+		AB51E5332836440B0064E3C3 /* ServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		AB51E5342836440B0064E3C3 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
+		AB51E5352836440C0064E3C3 /* URLUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtility.swift; sourceTree = "<group>"; };
+		AB51E53A283648B00064E3C3 /* DailyFruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFruitViewModel.swift; sourceTree = "<group>"; };
+		AB51E53C28364ADF0064E3C3 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		AB51E53E28364AFD0064E3C3 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
+		AB51E5412836821A0064E3C3 /* HalfSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetView.swift; sourceTree = "<group>"; };
+		AB51E5432836827F0064E3C3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AB51E545283682BC0064E3C3 /* TabSlideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSlideBarView.swift; sourceTree = "<group>"; };
+		AB51E5482836870E0064E3C3 /* DailyFruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFruitView.swift; sourceTree = "<group>"; };
+		AB51E54A283687400064E3C3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		AB61A74428368BB500FD17BE /* IconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonView.swift; sourceTree = "<group>"; };
+		AB61A74728368FA100FD17BE /* FruitEatenFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEatenFormView.swift; sourceTree = "<group>"; };
+		AB8D59A028363D8800DC1CA4 /* FruitDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8D59A328363D8800DC1CA4 /* DailyEatenFruitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEatenFruitApp.swift; sourceTree = "<group>"; };
+		AB8D59A728363D8B00DC1CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8D59AA28363D8B00DC1CA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB8D59B428363DCA00DC1CA4 /* WeekCalendarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCalendarViewModel.swift; sourceTree = "<group>"; };
+		AB8D59B628363DE800DC1CA4 /* WeekDaysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekDaysModel.swift; sourceTree = "<group>"; };
+		AB8D59B828363DF200DC1CA4 /* WeeklyCalendaerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyCalendaerHeaderView.swift; sourceTree = "<group>"; };
+		AB8D59B928363DF200DC1CA4 /* WeeklyCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyCalendarView.swift; sourceTree = "<group>"; };
+		AB8D59BC28363E0200DC1CA4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB8D59C128363E2D00DC1CA4 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		AB8D59C328363E3500DC1CA4 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AB8D59C428363E3500DC1CA4 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		AB8D59C728363E3B00DC1CA4 /* Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8D599D28363D8800DC1CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB355F552836E16900F87C71 /* Kingfisher in Frameworks */,
+				AB51E531283643DF0064E3C3 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB355F5A28382B1800F87C71 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				AB355F5B28382B3600F87C71 /* UserDefaultManager.swift */,
+				AB355F5D28382B5F00F87C71 /* StorageKey.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		AB51E540283681FD0064E3C3 /* ShareView */ = {
+			isa = PBXGroup;
+			children = (
+				AB355F562836FA0200F87C71 /* ButtonWithText.swift */,
+				AB51E5412836821A0064E3C3 /* HalfSheetView.swift */,
+				AB51E545283682BC0064E3C3 /* TabSlideBarView.swift */,
+				AB61A74428368BB500FD17BE /* IconButtonView.swift */,
+			);
+			path = ShareView;
+			sourceTree = "<group>";
+		};
+		AB51E547283686D20064E3C3 /* FruitDaily */ = {
+			isa = PBXGroup;
+			children = (
+				AB51E5432836827F0064E3C3 /* DashboardView.swift */,
+				AB51E5482836870E0064E3C3 /* DailyFruitView.swift */,
+				AB355F582838256200F87C71 /* FruitEatenListView.swift */,
+				AB61A74728368FA100FD17BE /* FruitEatenFormView.swift */,
+				AB51E54A283687400064E3C3 /* AboutView.swift */,
+			);
+			path = FruitDaily;
+			sourceTree = "<group>";
+		};
+		AB8D599728363D8800DC1CA4 = {
+			isa = PBXGroup;
+			children = (
+				AB8D59A228363D8800DC1CA4 /* FruitDiary */,
+				AB8D59A128363D8800DC1CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8D59A128363D8800DC1CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59A028363D8800DC1CA4 /* FruitDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8D59A228363D8800DC1CA4 /* FruitDiary */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59CA2836407600DC1CA4 /* App */,
+				AB8D59B328363DC200DC1CA4 /* Model */,
+				AB8D59B228363DBA00DC1CA4 /* View */,
+				AB8D59B128363DB000DC1CA4 /* ViewModel */,
+				AB8D59BE28363E0A00DC1CA4 /* Utility */,
+				AB8D59A928363D8B00DC1CA4 /* Preview Content */,
+			);
+			path = FruitDiary;
+			sourceTree = "<group>";
+		};
+		AB8D59A928363D8B00DC1CA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59AA28363D8B00DC1CA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB8D59B128363DB000DC1CA4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59B428363DCA00DC1CA4 /* WeekCalendarViewModel.swift */,
+				AB51E53A283648B00064E3C3 /* DailyFruitViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB8D59B228363DBA00DC1CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB51E547283686D20064E3C3 /* FruitDaily */,
+				AB8D59C92836400100DC1CA4 /* WeeklyCalendar */,
+				AB51E540283681FD0064E3C3 /* ShareView */,
+				AB8D59BC28363E0200DC1CA4 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB8D59B328363DC200DC1CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59B628363DE800DC1CA4 /* WeekDaysModel.swift */,
+				AB51E53C28364ADF0064E3C3 /* FruitModel.swift */,
+				AB51E53E28364AFD0064E3C3 /* EntryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB8D59BE28363E0A00DC1CA4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AB355F5A28382B1800F87C71 /* Storage */,
+				AB8D59CB283640CE00DC1CA4 /* APIs */,
+				AB8D59C028363E2400DC1CA4 /* Modifier */,
+				AB8D59BF28363E1900DC1CA4 /* Extension */,
+				AB8D59C328363E3500DC1CA4 /* Constant.swift */,
+				AB8D59C428363E3500DC1CA4 /* Device.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AB8D59BF28363E1900DC1CA4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59C128363E2D00DC1CA4 /* Date+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB8D59C028363E2400DC1CA4 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59C728363E3B00DC1CA4 /* Modifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		AB8D59C92836400100DC1CA4 /* WeeklyCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59B828363DF200DC1CA4 /* WeeklyCalendaerHeaderView.swift */,
+				AB8D59B928363DF200DC1CA4 /* WeeklyCalendarView.swift */,
+			);
+			path = WeeklyCalendar;
+			sourceTree = "<group>";
+		};
+		AB8D59CA2836407600DC1CA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D59A328363D8800DC1CA4 /* DailyEatenFruitApp.swift */,
+				AB8D59A728363D8B00DC1CA4 /* Assets.xcassets */,
+				AB355F61283953E600F87C71 /* FileIndex.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB8D59CB283640CE00DC1CA4 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				AB51E5342836440B0064E3C3 /* AlamofireManager.swift */,
+				AB51E5332836440B0064E3C3 /* ServiceAPI.swift */,
+				AB51E5352836440C0064E3C3 /* URLUtility.swift */,
+				AB51E5322836440B0064E3C3 /* ErrorStruct.swift */,
+				AB355F5F283918EF00F87C71 /* JsonService.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8D599F28363D8800DC1CA4 /* FruitDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8D59AE28363D8B00DC1CA4 /* Build configuration list for PBXNativeTarget "FruitDiary" */;
+			buildPhases = (
+				AB8D599C28363D8800DC1CA4 /* Sources */,
+				AB8D599D28363D8800DC1CA4 /* Frameworks */,
+				AB8D599E28363D8800DC1CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitDiary;
+			packageProductDependencies = (
+				AB51E530283643DF0064E3C3 /* Alamofire */,
+				AB355F542836E16900F87C71 /* Kingfisher */,
+			);
+			productName = DailyEatenFruit;
+			productReference = AB8D59A028363D8800DC1CA4 /* FruitDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8D599828363D8800DC1CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AB8D599F28363D8800DC1CA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AB8D599B28363D8800DC1CA4 /* Build configuration list for PBXProject "FruitDiary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8D599728363D8800DC1CA4;
+			packageReferences = (
+				AB51E52F283643DF0064E3C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AB355F532836E16900F87C71 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = AB8D59A128363D8800DC1CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8D599F28363D8800DC1CA4 /* FruitDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8D599E28363D8800DC1CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8D59AB28363D8B00DC1CA4 /* Preview Assets.xcassets in Resources */,
+				AB8D59A828363D8B00DC1CA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8D599C28363D8800DC1CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51E546283682BC0064E3C3 /* TabSlideBarView.swift in Sources */,
+				AB355F60283918EF00F87C71 /* JsonService.swift in Sources */,
+				AB8D59BB28363DF200DC1CA4 /* WeeklyCalendarView.swift in Sources */,
+				AB61A74828368FA200FD17BE /* FruitEatenFormView.swift in Sources */,
+				AB51E54B283687400064E3C3 /* AboutView.swift in Sources */,
+				AB51E5362836440C0064E3C3 /* ErrorStruct.swift in Sources */,
+				AB8D59B728363DE800DC1CA4 /* WeekDaysModel.swift in Sources */,
+				AB51E5382836440C0064E3C3 /* AlamofireManager.swift in Sources */,
+				AB8D59BD28363E0200DC1CA4 /* ContentView.swift in Sources */,
+				AB51E5422836821B0064E3C3 /* HalfSheetView.swift in Sources */,
+				AB8D59C628363E3500DC1CA4 /* Device.swift in Sources */,
+				AB51E5392836440C0064E3C3 /* URLUtility.swift in Sources */,
+				AB51E5442836827F0064E3C3 /* DashboardView.swift in Sources */,
+				AB61A74528368BB500FD17BE /* IconButtonView.swift in Sources */,
+				AB8D59C828363E3B00DC1CA4 /* Modifier.swift in Sources */,
+				AB51E5492836870F0064E3C3 /* DailyFruitView.swift in Sources */,
+				AB8D59C528363E3500DC1CA4 /* Constant.swift in Sources */,
+				AB8D59BA28363DF200DC1CA4 /* WeeklyCalendaerHeaderView.swift in Sources */,
+				AB355F5E28382B5F00F87C71 /* StorageKey.swift in Sources */,
+				AB355F592838256200F87C71 /* FruitEatenListView.swift in Sources */,
+				AB355F572836FA0200F87C71 /* ButtonWithText.swift in Sources */,
+				AB8D59C228363E2D00DC1CA4 /* Date+Extension.swift in Sources */,
+				AB8D59A428363D8900DC1CA4 /* DailyEatenFruitApp.swift in Sources */,
+				AB51E5372836440C0064E3C3 /* ServiceAPI.swift in Sources */,
+				AB8D59B528363DCA00DC1CA4 /* WeekCalendarViewModel.swift in Sources */,
+				AB51E53D28364ADF0064E3C3 /* FruitModel.swift in Sources */,
+				AB355F62283953E700F87C71 /* FileIndex.swift in Sources */,
+				AB355F5C28382B3700F87C71 /* UserDefaultManager.swift in Sources */,
+				AB51E53F28364AFD0064E3C3 /* EntryModel.swift in Sources */,
+				AB51E53B283648B00064E3C3 /* DailyFruitViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB8D59AC28363D8B00DC1CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB8D59AD28363D8B00DC1CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8D59AF28363D8B00DC1CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FruitDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamwgo.DailyEatenFruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8D59B028363D8B00DC1CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FruitDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamwgo.DailyEatenFruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8D599B28363D8800DC1CA4 /* Build configuration list for PBXProject "FruitDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8D59AC28363D8B00DC1CA4 /* Debug */,
+				AB8D59AD28363D8B00DC1CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8D59AE28363D8B00DC1CA4 /* Build configuration list for PBXNativeTarget "FruitDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8D59AF28363D8B00DC1CA4 /* Debug */,
+				AB8D59B028363D8B00DC1CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB355F532836E16900F87C71 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		AB51E52F283643DF0064E3C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB355F542836E16900F87C71 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB355F532836E16900F87C71 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		AB51E530283643DF0064E3C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB51E52F283643DF0064E3C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB8D599828363D8800DC1CA4 /* Project object */;
+}
